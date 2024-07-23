@@ -10,6 +10,7 @@ python = "^3.12"
 django = "^5.0.7"
 black = "^24.4.2"
 pre-commit = "^3.7.1"
+python-dotenv = "^1.0.1"
 
 
 [tool.poetry.group.dev.dependencies]
