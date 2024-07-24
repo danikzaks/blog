@@ -11,6 +11,8 @@ django = "^5.0.7"
 black = "^24.4.2"
 pre-commit = "^3.7.1"
 python-dotenv = "^1.0.1"
+django-taggit = "^5.0.1"
+markdown = "^3.6"
 
 
 [tool.poetry.group.dev.dependencies]
