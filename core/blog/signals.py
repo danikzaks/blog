@@ -4,7 +4,7 @@ from django.shortcuts import get_object_or_404, render
 
 from .models import Post
 
-post_viewed = Signal(providing_args=["instance", "user"])
+# post_viewed = Signal(providing_args=["instance", "user"])
 
 
 @receiver(pre_save, sender=Post)

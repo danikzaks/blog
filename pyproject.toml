@@ -14,6 +14,7 @@ python-dotenv = "^1.0.1"
 django-taggit = "^5.0.1"
 markdown = "^3.6"
 psycopg2-binary = "^2.9.9"
+requests = "^2.32.3"
 
 
 [tool.poetry.group.dev.dependencies]
