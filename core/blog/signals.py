@@ -34,7 +34,7 @@ def post_tags_changed(sender, instance, action, **kwargs):
 
 
 # ОТправить сигнал
-def view_post(request, post_id):
-    post = get_object_or_404(Post, id=post_id)
-    post_viewed.send(sender=Post, instance=post, user=request.user)
-    return render(request, "blog/detail.html")
+# def view_post(request, post_id):
+#     post = get_object_or_404(Post, id=post_id)
+#     post_viewed.send(sender=Post, instance=post, user=request.user)
+#     return render(request, "blog/detail.html")
